@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head-title">
+        <h1>Porcentajes y descuentos</h1>
+        <p>Este es el segundo taller de JavaScript</p>
+    </header>
+    <section>
+        <form action="">
+            <div class="container">
+                <header class="head-form">
+                    <h2>Calcula el precio total de tu compra</h2>
+                    <p>Ingresa el precio y su descuento</p>
+                </header>
+                <label for="price">El Precio de tu producto</label>
+                <input id="price" type="number" placeholder="$">
+                <label for="discount">Descuento que quieras aplicar</label>
+                <input id="discount" type="number" placeholder="%">
+                <button type="button" onclick="calculateDiscount()">Calcula el precio con descuento</button>
+                <button type="reset"class="reset-btn">Resetea</button>
+                <p id="resultPrice"></p>
+        </div>
+        </form>
+    </section>
+    <script src="/discounts.js"></script>
+</body>
+
+</html>

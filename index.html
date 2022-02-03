@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="figuras.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap" rel="stylesheet">
+    <title>Figuras Geométricas</title>
+</head>
+<body>
+    <header>
+        <h1>FIGURAS GEOMETRICAS</h1>
+        <p>
+            Primer taller del curso de JavaScript
+        </p>
+    </header>
+    <section class="container">
+        <img src="https://media.istockphoto.com/photos/rendering-abstract-cube-blocks-on-gray-background-picture-id1153582874?k=20&m=1153582874&s=612x612&w=0&h=Q7xQXhexXdCNS6lztj8QB9r9tRQMzVKl6udWU58LTFc=" alt="">
+        <h2>Calcula el área y perímetro de un cuadrado</h2>
+        <form class="square-container" action="">
+            <label for="squareSide">Ingresa la medida de un lado del cuadrado</label>
+            <input name="squareSide" id="squareSide" type="number" placeholder="1234"/> 
+        </form>
+        <div><button type="button" onclick="cuadradoPerimetro()">Calcular perimetro</button>
+            <button type="button" onclick="cuadradoArea()">Calcular área</button>
+        </div>
+    </section>
+    <section class="container">
+        <img src="https://media.istockphoto.com/photos/neon-triangle-on-brick-wall-picture-id1327625070?b=1&k=20&m=1327625070&s=170667a&w=0&h=XuC67LHD5bllgF8OaMqkQloou4KdKTAPf80RswYzhZk=" alt="">
+        <h2>Calcula el área y perimetro de un triángulo</h2>
+        <form class="triangule-container" action="">
+            <label for="">Ingresa la medida de cada lado del triangulo</label>
+            
+            <label for="trianguloSide1">Medida lado 1</label>
+            <input  name="trianguloSide1" id="trianguloSide1" type="number"placeholder="1234"/>
+            <label for="trianguloSide2">Medida lado 2</label>
+            <input name="trianguloSide2" id="trianguloSide2" type="number"placeholder="1234"/>
+            <label for="trianguloBase">Medida de la base</label>
+            <input name="trianguloBase" id="trianguloBase" type="number"placeholder="1234"/>
+            <label for="trianguloHeight">Medida de  la altura</label>
+            <input name="trianguloHeight"id="trianguloHeight" type="number"/>
+            </form>
+            <div>
+                <button type="button" onclick="triangulo2()">Calcular perimetro</button>
+                <button type="button" onclick="triangulo3()">Calcular área</button>
+            </div>
+    </section>
+</body>
+</html>
