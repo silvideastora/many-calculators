@@ -26,8 +26,12 @@
                 <label for="discount">Descuento que quieras aplicar</label>
                 <input id="discount" type="number" placeholder="%">
                 <button type="button" onclick="calculateDiscount()">Calcula el precio con descuento</button>
-                <button type="reset"class="reset-btn">Resetea</button>
-                <p id="resultPrice"></p>
+                <label for="coupon">Descuento con cupones</label>
+                <input id="coupon" name="text" placeholder="Agrega tu cupón">
+                <button type="button" class="coupon-btn" onclick="calculateDiscountWithCoupons()">Calcula el precio con Cupones</button>
+                <button type="reset"class="reset-btn">Reset</button>
+                <p id="resultPrice" class="price-total"></p>
+                <p id="resultPriceCoupon" class="price-total"></p>
         </div>
         </form>
     </section>
